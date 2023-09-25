@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 #if !defined BUFFER_SIZE
 # define BUFFER_SIZE 1024
 #endif
@@ -81,7 +81,7 @@ char	*get_n_str(char *buffer)
 	return (return_string);
 }
 
-char	*get_next_line(int fd)
+char	*get_next_line_bonus(int fd)
 {
 	static char	*buffer[1024];
 	char		*return_string;
